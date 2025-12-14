@@ -1,2 +1,2 @@
 # vendor-spend-analysis
-Vendor Spend Strategy Memo assessment
+This repository was created solely for assessment purposes.
