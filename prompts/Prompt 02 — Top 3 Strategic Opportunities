@@ -1,6 +1,7 @@
 Prompt 02 — Identify Top 3 Strategic Cost-Savings Opportunities
 
 Context
+Use /outputs/vendor_classification_v1_QC.xlsx as the single source of truth.
 You have completed a full vendor spend classification based strictly on vendor name and trailing 12-month spend data. Each vendor now has:
 
 Assigned department
