@@ -129,5 +129,5 @@ No explanations. No commentary.
 
 Output
 Return the memo in clean Markdown format suitable for saving as:
-outputs/executive_memo_v2.md
+outputs/executive_memo_v3.md
 
