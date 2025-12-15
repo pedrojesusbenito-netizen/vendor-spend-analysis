@@ -1,4 +1,4 @@
-Task Prompt — Vendor Classification & Recommendation
+Prompt 01 — Vendor Classification & Recommendation
 
 Objective
 
