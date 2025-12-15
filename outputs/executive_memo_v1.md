@@ -1,15 +1,18 @@
 # Executive Memo: Vendor Spend Optimization Opportunities
 
 **To:** CEO, CFO
+
 **From:** VP Operations
+
 **Date:** December 2024
+
 **Re:** Post-Acquisition Vendor Rationalization — Preliminary Findings
 
 ---
 
 ## Summary
 
-We reviewed 386 vendors representing $7.9M in trailing 12-month spend. Three near-term opportunities have been identified with combined estimated annual savings of **$490K–$720K** (6–9% of total vendor spend). All three can be executed within 90 days of close with low operational risk.
+We reviewed 386 vendors representing $7.9M in trailing 12-month spend. Three near-term, low-risk opportunities have been identified with combined estimated annual savings of **$490K–$720K** (6–9% of total vendor spend). All three can be executed within 90 days of close with low operational risk.
 
 ---
 
@@ -32,7 +35,7 @@ Office space is fragmented across multiple flexible workspace vendors globally. 
 ### 3. Travel Platform Consolidation
 - **Spend:** $416K (Navan, 2 entities)
 - **Estimated Savings:** $40K–$60K annually
-- **Action:** Consolidate to single master agreement within 30 days
+- **Action:** Consolidate to a single master agreement within 30 days
 
 Corporate travel is managed through duplicate Navan billing entities. Merging contracts will simplify administration and enable volume pricing.
 
@@ -40,8 +43,8 @@ Corporate travel is managed through duplicate Navan billing entities. Merging co
 
 ## Key Considerations
 
-- **No customer impact:** All opportunities target internal operations
-- **Conservative estimates:** Savings based on lower end of industry benchmarks
+- **No customer impact:** All actions affect internal tooling and facilities only
+- **Conservative estimates:** Savings based on the lower end of industry benchmarks
 - **Validation required:** Actual savings depend on contract terms, utilization data, and lease structures not available pre-close
 
 ---
@@ -56,4 +59,4 @@ Corporate travel is managed through duplicate Navan billing entities. Merging co
 
 ---
 
-*Analysis based on vendor name and spend data only. Recommendations subject to post-close due diligence.*
+*These actions represent the highest-confidence savings available immediately post-close. Analysis based on vendor name and spend data only. Recommendations subject to post-close due diligence.*
