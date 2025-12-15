@@ -1,64 +1,133 @@
-Prompt
+Prompt 03 — Executive Memo (Rubric-Aligned, 1 Page Hard Cap)
 
 Context
-You are acting as the VP of Operations for a recently acquired enterprise software company.
 
-You have completed a vendor spend analysis covering 386 vendors and $7.89M in trailing 12-month spend.
+You have completed a post-acquisition vendor spend analysis based strictly on vendor name and trailing 12-month spend data. The analysis produced three high-confidence, near-term cost-savings opportunities with conservative savings estimates.
 
-Supporting artifacts include:
+You are acting as VP of Operations, preparing a memo for the CEO and CFO review.
 
-Classified vendor dataset (outputs/vendor_classification_v1.xlsx)
+This memo will be reviewed as part of an executive assessment. Brevity, clarity, and decisiveness are critical.
 
-Quality control review (outputs/vendor_classification_v1_QC.xlsx)
+Primary Objective
 
-Top 3 Strategic Cost-Savings Opportunities (outputs/top_3_cost_savings_opportunities.md)
+Produce a single-page executive memo that clearly summarizes:
 
-Task
-Draft a short executive memo (maximum 1 page) addressed to the CEO and CFO summarizing:
+• Scope of analysis
+• Key findings
+• The three recommended cost-saving actions
+• Expected financial impact
+• Immediate next steps
 
-Overall findings from the vendor spend analysis
+The memo must be directly usable without editing.
 
-The three highest-impact cost-savings opportunities
+Executive Standard
 
-Expected financial impact
+This memo must meet the standard of a McKinsey-style one-page executive memo, meaning:
 
-Near-term next steps
+Insight-first, not narrative
 
-Constraints & Expectations
+Dense but readable
 
-Audience: CEO and CFO (busy executives)
+Every sentence advances a decision
 
-Tone: crisp, analytical, confident, non-technical
+No background explanation unless strictly required
 
-Focus on what materially matters; omit obvious background
+Designed to be read in under 60 seconds by a CEO
 
-Do not over-explain methodology
+Assume the reader is:
 
-Avoid operational minutiae
+Highly time-constrained
 
-Use conservative, defensible language
+Financially sophisticated
 
-Do not exceed one page
+Interested only in material impact and clear next actions
 
-Content Requirements
-The memo must include:
+Hard Constraints (Do Not Violate)
 
-A brief opening summary (2–3 sentences max)
+Length
 
-A short section summarizing the Top 3 opportunities (1–2 sentences each)
+Maximum 400 words
 
-A clear statement of expected annual savings (range acceptable)
+Must fit on one page in a standard document
 
-A concise “Next Steps” section
+No appendices, tables, or footnotes
 
-Important
+Formatting
 
-Base all conclusions strictly on available data
+No horizontal rules or separators
 
-Use hedged language where assumptions exist
+No bullet lists longer than 3 items
 
-This memo should be suitable for direct inclusion in an acquisition diligence package
+Section headers allowed, but must be minimal
+
+No email headers (To / From / Re)
+
+Tone
+
+Executive, decisive, non-technical
+
+Written for CEO / CFO consumption
+
+No methodological explanation
+
+No defensive or hedging language beyond what is strictly necessary
+
+Required Structure (Follow Exactly)
+
+Title
+Executive Memo: Post-Acquisition Vendor Spend Optimization
+
+Summary (3–4 sentences)
+• Scope of review
+• Total spend analyzed
+• Total estimated annual savings
+• Execution risk level
+
+Key Recommendations (Exactly 3, numbered)
+For each recommendation:
+
+Vendor or spend area
+
+Annual spend
+
+Estimated annual savings
+
+Concrete action and timeline (≤1 sentence)
+
+Next 90-Day Focus (2–3 sentences total)
+• What leadership should approve immediately
+• What will be validated post-close
+
+Content Rules
+
+Use only information already present in the analysis
+
+Do not introduce new assumptions
+
+Savings must align with previously identified ranges
+
+Avoid repeating the same phrasing across recommendations
+
+Every sentence must contribute to decision-making
+
+Quality Bar (Non-Negotiable)
+
+Before finalizing, verify that:
+
+The memo fits on one page
+
+A CEO can understand it in under 60 seconds
+
+A CFO can sanity-check the savings without follow-up
+
+All three recommendations are clearly actionable
+
+Output Instruction
+
+Return only the memo text.
+No explanations. No commentary.
 
 Output
 Return the memo in clean Markdown format suitable for saving as:
-outputs/executive_memo.md
+outputs/executive_memo_v1.md
+
