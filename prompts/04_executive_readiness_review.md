@@ -1,4 +1,4 @@
-# Prompt 03 — Executive Readiness & Rubric Compliance Review
+# Prompt 04 — Executive Readiness & Rubric Compliance Review
 
 ## Context
 
