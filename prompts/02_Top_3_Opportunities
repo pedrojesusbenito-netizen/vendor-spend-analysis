@@ -1,76 +1,64 @@
-Prompt 02 — Identify Top 3 Strategic Cost-Savings Opportunities
+# **Prompt 02 — Identify Top 3 Strategic Cost-Savings Opportunities**
 
-Context
-Use /outputs/vendor_classification_v1_QC.xlsx as the single source of truth.
+**Context**
 You have completed a full vendor spend classification based strictly on vendor name and trailing 12-month spend data. Each vendor now has:
 
-Assigned department
+* Assigned department
+* One-line functional description
+* Strategic recommendation (Optimize / Consolidate / Terminate)
 
-One-line functional description
+You are acting as **VP of Operations** for a recently acquired enterprise software company.
 
-Strategic recommendation (Optimize / Consolidate / Terminate)
+Your objective is to identify the **three highest-impact, executive-level cost-savings opportunities** suitable for immediate post-acquisition action.
 
-You are acting as VP of Operations for a recently acquired enterprise software company.
+---
 
-Your objective is to identify the three highest-impact, executive-level cost-savings opportunities suitable for immediate post-acquisition action.
+## **Instructions**
 
-Instructions
+1. **Analyze the full classified vendor dataset**
 
-Analyze the full classified vendor dataset
+   * Weight findings by **total annual spend**, not vendor count
+   * Focus on **systemic opportunities**, not one-off micro cuts
+   * Ignore immaterial vendors unless they indicate structural duplication
 
-Weight findings by total annual spend, not vendor count
+2. **Select exactly THREE opportunities**
+   Each opportunity must represent:
 
-Focus on systemic opportunities, not one-off micro cuts
+   * Material financial impact
+   * High confidence based on available data
+   * Low to moderate execution risk
+   * No disruption to core customer or revenue systems
 
-Ignore immaterial vendors unless they indicate structural duplication
+3. **Each opportunity must include:**
 
-Select exactly THREE opportunities
-Each opportunity must represent:
+   * **Title** (executive-ready, outcome-focused)
+   * **Brief explanation** (2–3 sentences max)
+   * **Estimated annual savings (USD)**
 
-Material financial impact
+     * Use conservative, defensible assumptions
+     * Express savings as % of identifiable spend where relevant
+   * **Recommended first action** (concrete, time-bound)
 
-High confidence based on available data
+4. **Assumptions & Constraints**
 
-Low to moderate execution risk
+   * Do NOT assume access to contracts, usage logs, or headcount data
+   * Do NOT invent vendor functionality
+   * Use hedged language where uncertainty exists (“likely,” “appears,” “indicative”)
+   * Avoid speculative transformations or platform replacements
 
-No disruption to core customer or revenue systems
+5. **Tone & Audience**
 
-Each opportunity must include:
+   * Audience: **CEO and CFO**
+   * Style: crisp, analytical, confident, non-technical
+   * Avoid operational minutiae or implementation detail
 
-Title (executive-ready, outcome-focused)
+---
 
-Brief explanation (2–3 sentences max)
-
-Estimated annual savings (USD)
-
-Use conservative, defensible assumptions
-
-Express savings as % of identifiable spend where relevant
-
-Recommended first action (concrete, time-bound)
-
-Assumptions & Constraints
-
-Do NOT assume access to contracts, usage logs, or headcount data
-
-Do NOT invent vendor functionality
-
-Use hedged language where uncertainty exists (“likely,” “appears,” “indicative”)
-
-Avoid speculative transformations or platform replacements
-
-Tone & Audience
-
-Audience: CEO and CFO
-
-Style: crisp, analytical, confident, non-technical
-
-Avoid operational minutiae or implementation detail
-
-Output Format
+## **Output Format**
 
 Return the results in a clean, executive-ready structure:
 
+```
 Opportunity 1: [Title]
 Explanation:
 Estimated Annual Savings:
@@ -85,25 +73,26 @@ Opportunity 3: [Title]
 Explanation:
 Estimated Annual Savings:
 Recommended Action:
+```
 
-Quality Bar (Do Not Skip)
+---
+
+## **Quality Bar (Do Not Skip)**
 
 Before finalizing:
 
-Sanity-check savings estimates for realism
+* Sanity-check savings estimates for realism
+* Confirm no overlap between opportunities
+* Ensure the three opportunities together represent the **majority of feasible near-term savings**
+* Flag any assumptions that would require validation post-close
 
-Confirm no overlap between opportunities
+---
 
-Ensure the three opportunities together represent the majority of feasible near-term savings
-
-Flag any assumptions that would require validation post-close
-
-Important Reminder
+## **Important Reminder**
 
 This output will be used directly in:
 
-The Top 3 Opportunities tab of the assessment
-
-The Executive Memo
+* The **Top 3 Opportunities** tab of the assessment
+* The **Executive Memo**
 
 It must withstand scrutiny from an experienced CFO.
