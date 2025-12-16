@@ -29,6 +29,9 @@ This repository is organized to allow full transparency into the analytical proc
   - `top_3_cost_savings_opportunities.md` 
     Executive-ready summary of the three highest-impact cost-savings opportunities identified from the classified dataset.
 
+   - `outputs/executive_memo_v3.md` 
+    The final, high-level communication memo synthesizing the vendor rationalization findings and formalizing the strategic recommendations for the CEO and CFO.
+
 - `methodology.md`  
   Description of the analytical approach, assumptions, constraints, and quality control steps applied.
 
