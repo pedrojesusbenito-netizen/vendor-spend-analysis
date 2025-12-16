@@ -1,133 +1,124 @@
-Prompt 03 — Executive Memo (Rubric-Aligned, 1 Page Hard Cap)
 
-Context
+
+##  **Prompt 03 — Executive Memo (Rubric-Aligned, 1 Page Hard Cap)**
+
+**Context**
 
 You have completed a post-acquisition vendor spend analysis based strictly on vendor name and trailing 12-month spend data. The analysis produced three high-confidence, near-term cost-savings opportunities with conservative savings estimates.
 
-You are acting as VP of Operations, preparing a memo for the CEO and CFO review.
+You are acting as **VP of Operations** preparing a memo for **CEO and CFO review**.
 
 This memo will be reviewed as part of an executive assessment. Brevity, clarity, and decisiveness are critical.
 
-Primary Objective
+---
 
-Produce a single-page executive memo that clearly summarizes:
+### **Primary Objective**
+
+Produce a **single-page executive memo** that clearly summarizes:
 
 • Scope of analysis
 • Key findings
-• The three recommended cost-saving actions
+• The **three** recommended cost-savings actions
 • Expected financial impact
 • Immediate next steps
 
-The memo must be directly usable without editing.
+The memo must be **directly usable without editing**.
 
-Executive Standard
+---
 
-This memo must meet the standard of a McKinsey-style one-page executive memo, meaning:
+### **Executive Standard**
 
-Insight-first, not narrative
+This memo must meet the standard of a **McKinsey-style one-page executive memo**, meaning:
 
-Dense but readable
-
-Every sentence advances a decision
-
-No background explanation unless strictly required
-
-Designed to be read in under 60 seconds by a CEO
+* Insight-first, not narrative
+* Dense but readable
+* Every sentence advances a decision
+* No background explanation unless strictly required
+* Designed to be read in **under 60 seconds** by a CEO
 
 Assume the reader is:
 
-Highly time-constrained
+* Highly time-constrained
+* Financially sophisticated
+* Interested only in material impact and clear next actions
 
-Financially sophisticated
+---
 
-Interested only in material impact and clear next actions
+### **Hard Constraints (Do Not Violate)**
 
-Hard Constraints (Do Not Violate)
+1. **Length**
 
-Length
+   * Maximum **400 words**
+   * Must fit on **one page** in a standard document
+   * No appendices, tables, or footnotes
 
-Maximum 400 words
+2. **Formatting**
 
-Must fit on one page in a standard document
+   * No horizontal rules or separators
+   * No bullet lists longer than 3 items
+   * Section headers allowed but must be minimal
+   * No email headers (To / From / Re)
 
-No appendices, tables, or footnotes
+3. **Tone**
 
-Formatting
+   * Executive, decisive, non-technical
+   * Written for CEO / CFO consumption
+   * No methodological explanation
+   * No defensive or hedging language beyond what is strictly necessary
 
-No horizontal rules or separators
+---
 
-No bullet lists longer than 3 items
+### **Required Structure (Follow Exactly)**
 
-Section headers allowed, but must be minimal
-
-No email headers (To / From / Re)
-
-Tone
-
-Executive, decisive, non-technical
-
-Written for CEO / CFO consumption
-
-No methodological explanation
-
-No defensive or hedging language beyond what is strictly necessary
-
-Required Structure (Follow Exactly)
-
-Title
+**Title**
 Executive Memo: Post-Acquisition Vendor Spend Optimization
 
-Summary (3–4 sentences)
+**Summary (3–4 sentences)**
 • Scope of review
 • Total spend analyzed
 • Total estimated annual savings
 • Execution risk level
 
-Key Recommendations (Exactly 3, numbered)
+**Key Recommendations (Exactly 3, numbered)**
 For each recommendation:
 
-Vendor or spend area
+* Vendor or spend area
+* Annual spend
+* Estimated annual savings
+* Concrete action and timeline (≤1 sentence)
 
-Annual spend
-
-Estimated annual savings
-
-Concrete action and timeline (≤1 sentence)
-
-Next 90-Day Focus (2–3 sentences total)
+**Next 90-Day Focus (2–3 sentences total)**
 • What leadership should approve immediately
 • What will be validated post-close
 
-Content Rules
+---
 
-Use only information already present in the analysis
+### **Content Rules**
 
-Do not introduce new assumptions
+* Use only information already present in the analysis
+* Do **not** introduce new assumptions
+* Savings must align with previously identified ranges
+* Avoid repeating the same phrasing across recommendations
+* Every sentence must contribute to decision-making
 
-Savings must align with previously identified ranges
+---
 
-Avoid repeating the same phrasing across recommendations
-
-Every sentence must contribute to decision-making
-
-Quality Bar (Non-Negotiable)
+### **Quality Bar (Non-Negotiable)**
 
 Before finalizing, verify that:
 
-The memo fits on one page
+* The memo fits on one page
+* A CEO can understand it in under 60 seconds
+* A CFO can sanity-check the savings without follow-up
+* All three recommendations are clearly actionable
 
-A CEO can understand it in under 60 seconds
+---
 
-A CFO can sanity-check the savings without follow-up
+### **Output Instruction**
 
-All three recommendations are clearly actionable
+Return **only** the memo text.
 
-Output Instruction
-
-Return only the memo text.
 No explanations. No commentary.
 
-Output
-Return the memo in clean Markdown format suitable for saving as:
-outputs/executive_memo_v3.md
+
 
